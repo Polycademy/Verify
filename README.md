@@ -1,4 +1,4 @@
-VERIFY
+Verify
 ======
 
 Verify is the best verification (validation) library that exists for PHP. Don't believe, just try it!
@@ -54,7 +54,7 @@ The data that has no relevant rules will be filtered out.
 Ok Controllers sometimes needs to filter out data as well.
 In the Dragoon framework. All request parameters would be part of a request object that is injected in the function or object.
 
-
+```
 [
 	//sequence rules applies to special keys: alphabets (a, A) or digits (0, 1.. etc)
 	//all rules plus all child rules applies to each item in the sequence
@@ -91,3 +91,6 @@ In the Dragoon framework. All request parameters would be part of a request obje
 		]
 	]
 ]
+```
+
+https://github.com/bobthecow/Ruler
