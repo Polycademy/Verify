@@ -94,3 +94,4 @@ In the Dragoon framework. All request parameters would be part of a request obje
 ```
 
 https://github.com/bobthecow/Ruler
+https://github.com/bobthecow/Ruler/issues/27#issuecomment-36432685
