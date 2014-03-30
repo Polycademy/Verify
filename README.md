@@ -95,3 +95,8 @@ In the Dragoon framework. All request parameters would be part of a request obje
 
 https://github.com/bobthecow/Ruler
 https://github.com/bobthecow/Ruler/issues/27#issuecomment-36432685
+
+RPC clusterable Verification service. Will use Open Service Discovery Schema.
+Remeber even though it's developed as a service, it's subcomponents can be used and composited into a new service. So it acts like a "library" and as a "service" depending on what you want. The entry point creates a service.
+
+This thing could be CPU intensive but also IO intensive. So I suggest PHP AMP. As it's a daemon + multithreaded capability.
